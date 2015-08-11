@@ -13,3 +13,8 @@ This is a template (android) app for parse.com. This is a starting point for any
 # How to use this? 
 
  > Refer to [this post](https://bhavyanshu.me/tutorials/released-an-android-app-template-with-complete-parsecom-integration/07/14/2015/) on my blog.
+
+# Preview (See preview folder)
+
+<img src="https://raw.githubusercontent.com/bhavyanshu/TemplateAppParse-dot-com/master/preview/device-2015-08-11-203545.png" width="300px" height="500px" />
+<img src="https://raw.githubusercontent.com/bhavyanshu/TemplateAppParse-dot-com/master/preview/device-2015-08-11-203731.png" width="300px" height="500px" />
