@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TemplateApp</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_forgot_pass">Password Reset</string>
+
+    <!-- Forms -->
+    <string name="email_label">Email ID*</string>
+    <string name="username_label">Username*</string>
+    <string name="password_label">Password*</string>
+    <string name="twitter_label">Log in with Twitter</string>
+    <string name="register_label">Register using Email</string>
+    <string name="signin_email_label"><u>Sign In</u></string>
+    <string name="sign_up_label">Submit</string>
+    <string name="already_have_an_account_label">Already have an account? Sign In</string>
+
+    <!-- Menu -->
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_devinfo">Developer</string>
+    <string name="share_app">Share App</string>
+    <string name="action_help">Help</string>
+    <string name="action_submit">Submit</string>
+
+
+    <!-- Random Strings -->
+    <string name="pass_change_help">Enter your new password &amp; press the save button.</string>
+    <string name="pass_hint">Type your new pass here</string>
+    <string name="pass_button">Save</string>
+    <string name="forgotpass_help">Enter your registered email address below. We will send you an email with password reset instructions.</string>
+    <string name="forgotpass_email">Type your email ID here</string>
+    <string name="forgotpass_btn">Submit</string>
+    <string name="login_frontor">or</string>
+    <string name="forgotpass_init_btn_txt">Forgot Password?</string>
+
+    <!-- Auth Error Messages -->
+    <string name="alert_dialog_success">Done</string>
+    <string name="alert_dialog_failed">Error</string>
+
+    <!-- ParseException Messages -->
+    <string name="parse_timeout">Server busy. Try again later.</string>
+    <string name="parse_sessionmissing">Please login again.</string>
+    <string name="parse_unhandled">Please try after some time.</string>
+
+</resources>

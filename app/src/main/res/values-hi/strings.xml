@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TemplateApp</string>
+    <string name="action_devinfo">डेवलपर</string>
+    <string name="action_help">मदद</string>
+    <string name="action_logout">लॉग आउट</string>
+    <string name="action_search">खोज</string>
+    <string name="action_settings">सेटिंग</string>
+    <string name="action_submit">सब्मिट</string>
+    <string name="forgotpass_init_btn_txt">अपना पासवर्ड भूल गए?</string>
+    <string name="email_label">ईमेल</string>
+    <string name="alert_dialog_failed">गलत हो गया। बाद में कोशिश करें।</string>
+    <string name="alert_dialog_success">हो गया</string>
+    <string name="already_have_an_account_label"> क्या आपके पास पहले से एक खाता मौजूद है? साइन इन करें</string>
+    <string name="forgotpass_btn">सब्मिट</string>
+    <string name="forgotpass_email">यहाँ अपना ईमेल आईडी लिखें</string>
+    <string name="forgotpass_help">नीचे अपना पंजीकृत ईमेल पता लिखें। हम पासवर्ड रीसेट निर्देश के साथ एक ईमेल भेज देंगे।</string>
+    <string name="login_frontor">या</string>
+    <string name="pass_button">सब्मिट</string>
+    <string name="pass_change_help">अपना नया पासवर्ड लिखें</string>
+    <string name="pass_hint">अपना नया पासवर्ड लिखें और सब्मिट बटन दबाएं</string>
+    <string name="password_label">आपका पासवर्ड*</string>
+    <string name="register_label">ईमेल का उपयोग कर रजिस्टर करें</string>
+    <string name="share_app">एप शेयर कीजिए</string>
+    <string name="sign_up_label">सब्मिट</string>
+    <string name="signin_email_label">साइन इन कीजिए</string>
+    <string name="title_activity_forgot_pass">पासवर्ड रीसेट</string>
+    <string name="title_activity_login">लॉगइन करें</string>
+    <string name="title_activity_register">रजिस्टर</string>
+    <string name="twitter_label">ट्विटर से लोग इन करें</string>
+    <string name="username_label">अपना यूज़र नेम भरें</string>
+</resources>

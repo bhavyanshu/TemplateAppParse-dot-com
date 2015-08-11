@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="90"
+        android:title="@string/action_help"
+        android:icon="@drawable/ic_action_help"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_devinfo"
+        android:orderInCategory="80"
+        android:title="@string/action_devinfo"
+        android:icon="@drawable/ic_action_info"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_share_app"
+        android:orderInCategory="70"
+        android:title="@string/share_app"
+        android:icon="@drawable/ic_action_share"
+        app:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#5ca6e5</color>
+    <color name="primary_dark">#1682e5</color>
+    <color name="primary_light">#88c2f6</color>
+    <color name="tinty">#2d8fe5</color>
+    <color name="accent">#2d8fe5</color>
+    <color name="primary_text">#333333</color>
+    <color name="secondary_text">#222222</color>
+    <color name="textColorLighterGrey">#e7e7e7</color>
+    <color name="windowBackgroundLight">#e1e1e1</color>
+    <color name="icons">#ebebeb</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="red">#ff6662</color>
+    <color name="pressed">#CC33B5E5</color>
+
+    <!-- Extras -->
+    <color name="colorPrimary">#6eb6e5</color>
+    <color name="colorPrimaryDark">#4b9de5</color>
+    <color name="textColorDark">#222222</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#FF80AB</color>
+    <color name="window_background">#cc222222</color>
+</resources>

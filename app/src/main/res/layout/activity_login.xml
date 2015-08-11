@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/windowBackgroundLight"
+    tools:context=".LoginActivity" >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/reli"
+        android:padding="15dp"
+        android:gravity="top"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/sign_in_twitter"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="45dp"
+            android:layout_height="wrap_content"
+            android:onClick="signInTwitter"
+            android:background="@drawable/layers_twitter_button_bg"
+            style="@style/ButtonText"
+            android:text="@string/twitter_label"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp" />
+
+        <TextView
+            android:id="@+id/or_front_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/login_frontor"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/sign_in_twitter"
+            android:layout_centerHorizontal="true" />
+
+
+        <EditText
+            android:id="@+id/login_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/primary_text"
+            android:textColorHint="@color/primary_text"
+            android:layout_below="@+id/or_front_message"
+            android:hint="@string/username_label"
+            android:inputType="textEmailAddress">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/primary_text"
+            android:textColorHint="@color/primary_text"
+            android:layout_below="@+id/login_email"
+            android:hint="@string/password_label"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/error_messages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/login_password"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/red" />
+
+        <Button
+            android:id="@+id/sign_in_normal"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/card_border"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:onClick="signInNormal"
+            android:textColor="@color/textColorDark"
+            android:text="@string/signin_email_label"
+            android:layout_below="@+id/error_messages"
+            android:layout_centerHorizontal="true" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/sign_in_normal"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+    <Button
+        android:id="@+id/btn_forgotpass"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:onClick="forgpassActivity"
+        android:text="@string/forgotpass_init_btn_txt" />
+
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="40dp"
+        android:background="@drawable/seperator_style_vertical"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/view" />
+
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showRegistration"
+        android:text="@string/register_label"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1" />
+        </LinearLayout>
+
+</LinearLayout>

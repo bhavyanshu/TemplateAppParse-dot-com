@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/window_background"
+    tools:context="me.bhavyanshu.unidb.ForgotPassActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+    <TextView
+        android:id="@+id/change_help_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/pass_change_help"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/field_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:ems="10"
+        android:hint="@string/pass_hint"
+        android:inputType="textPassword"
+        android:textColor="@color/primary_text"
+        android:textColorHint="@color/primary_text"
+        android:layout_below="@+id/change_help_text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="36dp" />
+
+        <TextView
+            android:id="@+id/error_messages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/field_password"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/red" />
+
+        <Button
+        android:id="@+id/changepassButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="initChangePass"
+        android:text="@string/pass_button"
+        android:background="@color/accent"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:layout_below="@+id/changepassButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
